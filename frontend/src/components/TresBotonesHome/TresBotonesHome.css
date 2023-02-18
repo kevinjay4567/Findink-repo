@@ -1,0 +1,103 @@
+.contenedorDeTest1{
+    
+    background-color: black !important;
+}
+
+.contenedorDeTest1{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: black !important
+}
+
+.row_botonesHome{
+    padding-left: 0 !important;
+  padding-right: 0 !important;
+  width: 100% !important;
+}
+
+.col_text_botones{
+    display: table;
+}
+
+.col_botones_botones{
+    display: table;
+}
+
+.contenedor_textBotones{
+    text-align: right;
+    color: white;
+    font-size: 40px;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.contenedor_botonesBotones{
+    text-align: left;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.all_botonesBotones{
+    border: none;
+    background-color: white;
+    color: black;
+    height: 40px;
+    width: 120px;
+}
+
+.all_botonesBotones:hover{
+    background-color: black;
+    color: white;
+    border: solid 1px white;
+}
+
+.boton2botones{
+    float: left;
+    margin-left: -40px;
+}
+
+.boton3botones{
+    float: left;
+    margin-left: -123px;
+}
+
+.row_interna_botones{
+}
+
+.all_col_botones{
+    text-align: center;
+}
+
+@media (max-width: 450px) {
+    .contenedor_textBotones{
+        text-align: center;
+        color: white;
+        vertical-align: middle;
+        display: table-cell;
+    }
+
+    .contenedor_botonesBotones{
+        vertical-align: middle;
+        display: table-cell;
+    }
+
+    .all_botonesBotones{
+        border: none;
+        background-color: white;
+        color: black;
+        height: 40px;
+        margin-top: 5px;
+        width: 200px;
+    }
+
+    .boton2botones{
+        float: none;
+        margin-left: 0px;
+    }
+    
+    .boton3botones{
+        float: none;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+}

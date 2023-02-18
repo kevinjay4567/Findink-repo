@@ -1,0 +1,116 @@
+.contenedorPromocionate{
+    /* border: solid 2px red; */
+    height: 350px;
+}
+
+.bannerPromocionate{
+    height: 100%;
+    
+}
+
+.boxTextPromocionate{
+    position: absolute;
+    border: solid 2px rgb(0, 0, 0);
+    background-color: black;
+    height: 350px;
+    width: 500px;
+    margin-left: 15%;
+}
+
+.tituloPromocionate{
+    color: white;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 37px;
+    text-align: left;
+}
+
+.textPromocionate1{
+    color: white;
+    text-align: left;
+    margin-left: 30px;
+    font-size: 12px;
+    padding-right: 30px;
+}
+
+.textPromocionate2{
+    color: white;
+    text-align: left;
+    margin-left: 30px;
+    font-size: 12px;
+    padding-right: 30px;
+}
+
+.botonPromocionate{
+    float: left;
+    margin-left: 30px;
+    height: 40px;
+    font-size: small;
+    border: none;
+}
+
+.botonPromocionate:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(3, 3, 3);
+    border: solid 1px white;
+}
+
+@media (max-width: 450px) {
+    .contenedorPromocionate{
+        /* border: solid 2px red; */
+        height: 150px;
+    }
+    
+
+    .bannerPromocionate{
+        height: 100%;  
+    }
+
+    .boxTextPromocionate{
+        position: absolute;
+        border: solid 2px rgb(0, 0, 0);
+        background-color: rgb(0, 0, 0);
+        height: 150px;
+        width: 200px;
+        margin-left: 30px;
+    }
+    
+    .tituloPromocionate{
+        color: white;
+        margin-top: 5px; 
+        margin-left: 5px; 
+        font-size: 15px; 
+        text-align: left; 
+    }
+    
+    .textPromocionate1{
+        color: white;
+        text-align: left;
+        margin-left: 5px;      
+        font-size: 5px;      
+        padding-right: 0px;      
+    }
+    
+    .textPromocionate2{
+        color: white;
+        text-align: left;
+        margin-left: 5px;    
+        margin-top: -5px;  
+        font-size: 5px;      
+        padding-right: 0px;      
+    }
+    
+    .botonPromocionate{
+        float: left;
+        margin-left: 5px;      
+        height: 20px;      
+        border: none;
+        font-size: 10px;
+    }
+    
+    .botonPromocionate:hover{
+        color: rgb(255, 255, 255);
+        background-color: rgb(3, 3, 3);
+        border: solid 1px white;
+    }
+}

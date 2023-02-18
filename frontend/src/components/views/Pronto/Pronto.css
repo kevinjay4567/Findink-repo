@@ -1,0 +1,42 @@
+.contenedor_pronto{
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.logoPronto{
+    width: 10%;
+    margin-top: 80px;
+}
+
+.titulo_proximo{
+    margin-top: 20px;
+}
+
+.text_proximo1{
+    margin-top: 20px;
+}
+
+.botonSieguenosProximamaente{
+    margin-top: 30px;
+    height: 40px;
+    background-color: #e10f36;
+    color: white;
+    border: #e10f36;
+}
+
+
+@media (max-width: 450px) {
+    .logoPronto{
+        width: 30%;
+        margin-top: 80px;
+    }
+
+    .titulo_proximo{
+        margin-top: 20px;
+    }
+
+    .text_proximo1{
+        margin-top: 20px;
+    }
+    
+}

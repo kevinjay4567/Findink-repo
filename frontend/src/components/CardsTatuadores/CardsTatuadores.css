@@ -1,0 +1,141 @@
+.card-img-top {
+    height: 250px;
+}
+
+.card-title{
+    font-size: 15px !important;
+    float: left;
+    margin-top: 12px;
+    margin-bottom: -2px;
+    text-align: left;
+    width: 100%;
+}
+
+.oculto_img_card {
+    position: absolute;
+    width: 120px;
+    height: 25px;
+    align-items: center;
+    display: table;
+    background-color: black;
+}
+
+.estilo_tatuador_card {
+    color: white;
+    font-size: 10px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.like_cora_button {
+    border: white;
+    height: 25px;
+    float: right;
+    width: 28px;
+}
+
+.card_tatuadores {
+    border: solid 2px rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.219) !important;
+    transition: transform 0.4s;
+    transform-style: preserve-3d;
+}
+
+.card_tatuadores:hover {
+    transform: scale(1.02);
+    cursor: hand;
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    -o-transform: scale(1.02);
+}
+
+.list-group-tatuadores {
+    background-color: rgba(0, 0, 0, 0.219) !important;
+    color: white;
+}
+
+.estrellas {
+    width: 60px;
+    float: left;
+}
+
+.link_none {
+    text-decoration: none;
+}
+
+.visitas {
+    color: rgb(185, 185, 185);
+}
+
+.seccion_foto {
+    height: 100px;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 73%, rgba(252, 252, 252, 1) 73%);
+}
+
+.row_seccion_foto {
+    width: 100%;
+    height: 100%;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.col_foto_perfil {
+}
+
+.col_Info_estrellas {
+}
+
+.col_Boton_accion {
+}
+
+.contenedor_row {
+    height: 100%;
+}
+
+.foto_perfil_card {
+    height: 75px;
+    width: 75px;
+    margin-right: 0px;
+    margin-top: 13px;
+}
+
+.boton_cardHome_tatuador{
+    border: none;
+    width: 100px;
+    color: white;
+    background-color: #e10f36;
+    margin-top: 47px;
+    margin-left: 6px;
+}
+
+
+@media (max-width: 970px) {
+    .row_seccion_foto{
+        max-width: none !important;
+    }
+
+    .col_foto_perfil {
+        width: 25% !important;
+    }
+    
+    .col_Info_estrellas {
+        width: 41.666% !important;
+    }
+    
+    .col_Boton_accion {
+        max-width: 33.333% !important;
+    }
+
+    .boton_cardHome_tatuador{
+        border: none;
+        width: 100px;
+        color: white;
+        background-color: #e10f36;
+        margin-top: 47px;
+        margin-left: 4px;
+    }
+
+
+}

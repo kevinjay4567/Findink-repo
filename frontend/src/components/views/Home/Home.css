@@ -1,0 +1,142 @@
+
+
+/* .contenedor2{
+    background-image: url(../../../assets/imagenbotones.png);
+}
+
+.title_botones{
+    color: white;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.div_botones{
+    text-align: center;
+}
+
+.tresbotones{
+    border: none;
+    background-color: #9F1663;
+    color: white;
+    padding: 1%;
+    width: 30%;
+    height: 60px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 3%;
+    font-size: large;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.tresbotonesUltimo{
+    margin-bottom: 50px;
+}
+
+.tresbotones:hover{
+    border-color: #9F1663;
+    background-color: #000000;
+    box-shadow: 0px 0px 29px 6px #9F1663;
+}
+
+.img_nosotros{
+    width: 100%;
+    margin-top: 10%;
+}
+
+.title_nosotros_home{
+    text-align: center;
+    color: white;
+    margin-top: 20%;
+}
+
+.text_nosotros_home{
+    color: white;
+    margin-top: 5%;
+    margin-bottom: 20%;
+} */
+/* 
+
+@media (max-width: 450px) {
+    .carousel-item {
+      height: 200px;
+    }
+    .text_banner1{
+        color: white;
+        padding-top: 5%;
+    }
+    
+    .sub_banner1{
+        color: white;
+    }
+    
+    .btn_banner1{
+        border: none;
+        background-color: #9F1663;
+        color: white;
+        padding: 2%;
+        border-radius: 15px;
+        margin-top: 10px;
+        font-size: small;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+    }
+    
+    .btn_banner1:hover{
+        border-color: #9F1663;
+        background-color: #000000;
+        box-shadow: 0px 0px 29px 6px #9F1663;
+    }
+    .tresbotones{
+        border: none;
+        background-color: #9F1663;
+        color: white;
+        padding: 1%;
+        width: 50%;
+        border-radius: 10px;
+        margin-top: 10px;
+        font-size: large;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    .volver_video_home{
+      font-size: 10px !important;
+      transform: rotate(0deg);
+      color: gray;
+    }
+    
+  } */
+
+  .img-burbuja{
+    /* width: 80px; */
+    width: 100px;
+    /* margin-top: 2px; */
+}
+
+.btn-burbuja{
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    line-height: 0px;
+    bottom: 30px;
+    right: 30px;
+    border-radius: 50px;
+    background: #ff1717;
+    color: #fff;
+    text-align: center;
+    transition: 300ms all;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index: 100;
+}
+
+.btn-burbuja:hover{
+    background: #ffffff;
+}
+   
+  
