@@ -41,7 +41,7 @@ return(
           </Link>
         </li>
         <li className="nav-item">
-          <Link className="Link" to="/proximamente">
+          <Link className="Link" to="/register">
           <a className="nav-link active">Unirme</a>
           </Link>
         </li>

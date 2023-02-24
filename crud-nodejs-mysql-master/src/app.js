@@ -3,22 +3,24 @@ import morgan from 'morgan';
 import dontenv from 'dotenv';
 import cors from 'cors';
 
+
 dontenv.config({ path: './.env' });
 /* import path from "path"; */
 /* import { port } from "./config.js"; */
 
 import customerRoutes from './routes/customer.routes.js';
 
-const corsOptions = {
+/* const corsOptions = {
   origin: 'http://localhost:3000',
   optionsSuccessStatus: 200,
-}
+}; */
 /* import { fileURLToPath } from "url"; */
 
 const app = express();
 
 /* const __dirname = path.dirname(fileURLToPath(import.meta.url)); */
 app.use(morgan('dev'));
+app.use(cors());
 app.use(express.json());
 
 /* // settings
@@ -34,7 +36,7 @@ app.use(express.urlencoded({ extended: false })); */
 app.get('/', (req, res) => {
   res.json({ message: 'Findink api' });
 });
-app.use('/api', cors(corsOptions), customerRoutes);
+app.use('/api',customerRoutes);
 app.use((req, res, next) => {
   res.status(404).json({ message: 'Not Found' });
 });
