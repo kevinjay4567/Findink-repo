@@ -5,9 +5,6 @@ export const FILTER_BY_CITY = 'FILTER_BY_CITY';
 export const FILTER_BY_STYLE = 'FILTER_BY_STYLE';
 
 
-const axios = require('axios');
-
-
 export const getTatuadores = () => (dispatch) => {
     return fetch("")
     .then((response) => response.json())

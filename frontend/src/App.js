@@ -6,7 +6,6 @@ import Login from "../src/components/views/Login"
 import Register from "../src/components/views/Register/Register"
 import Tatuadores from "../src/components/views/Tatuadores/Tatuadores"
 import DetailTatuador from "../src/components/views/Detail/DetailTatuador"
-import Contacto from './components/views/Contacto/Contacto';
 import Contact from './components/views/Contact/Contact';
 import Preguntas from './components/views/Preguntas/Preguntas';
 import Blog from './components/views/Blog/Blog';

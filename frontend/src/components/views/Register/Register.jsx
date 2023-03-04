@@ -3,6 +3,7 @@ import axios from 'axios';
 import './Register.css';
 import logo1 from '../../../assets/logo1.png';
 import Swal from 'sweetalert2';
+import { env } from '../../../env';
 
 const Register = () => {
   const [errors, setErrors] = useState({});
@@ -94,7 +95,8 @@ const Register = () => {
       });
     } else {
       axios
-        .post('http://localhost:4000/api/', {
+        // variables de entorno
+        .post(env.API_URL, {
           name: body.name,
           nickname: body.username,
           email: body.email,

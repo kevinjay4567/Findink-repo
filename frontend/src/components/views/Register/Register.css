@@ -183,6 +183,7 @@ html {
   
   .iniciar_sesion{
       color: white;
+      cursor: default;
   }
   
   .img_login{
